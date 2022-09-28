@@ -1,0 +1,129 @@
+.header-container {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+
+    .alert_box {
+      background: #191919;
+      padding: 13px 32px;
+
+      .mx {
+        display: flex;
+        gap: 65px;
+        justify-content: center;
+        align-items: center;
+        .announcement {
+          img {
+            max-width: 210px;
+            width: 100%;
+          }
+        }
+        .header-para {
+          p {
+            font-size: 1.3rem;
+            line-height: 18px;
+            color: #ffffff;
+            font-family: "Grold-SemiLight";
+          }
+        }
+        .header-btn {
+          Button {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            gap: 5px;
+            padding: 8px 16px;
+            color: #ffffff;
+          }
+        }
+        .header-tool {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          p {
+            color: #0066ff;
+            font-size: 1.3rem;
+          }
+        }
+      }
+
+      .header-close {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        p {
+          color: #d0342c;
+          font-size: 1.4rem;
+          gap: 2px;
+        }
+      }
+    }
+
+    .header-contant {
+      background: #111111;
+      padding: 0px 32px;
+
+      .mx {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .logo {
+        img {
+          width: 170px;
+        }
+      }
+      .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        a {
+          text-decoration: none;
+          font-size: 16px;
+          color: #ffffff;
+          font-family: "Grold-SemiLight";
+        }
+      }
+      .access-contant {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        .bell {
+          display: flex;
+          gap: 25px;
+          margin-right: 20px;
+        }
+        .skew {
+          transform: skew(-30deg);
+
+          .fingerprint {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-left: 1px solid #777777;
+            padding: 18px 10px;
+
+            img {
+              transform: skew(30deg);
+            }
+            p {
+              color: #ffffff;
+              font-size: 14px;
+              margin-left: 5px;
+              transform: skew(30deg);
+            }
+          }
+        }
+      }
+    }
+  }
+}

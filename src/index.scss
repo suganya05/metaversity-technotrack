@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Grold-Medium";
+  src: url(./assets/fonts/Grold-Medium.ttf);
+}
+@font-face {
+  font-family: "Grold-Regular";
+  src: url(./assets/fonts/Grold-Regular.ttf);
+}
+@font-face {
+  font-family: "Grold-Light";
+  src: url(./assets/fonts/Grold-Light.ttf);
+}
+@font-face {
+  font-family: "Grold-ExtraLight";
+  src: url(./assets/fonts/Grold-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "Grold-SemiLight";
+  src: url(./assets/fonts/Grold-SemiLight.ttf);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Grold-SemiLight";
+  font-size: 1.4rem;
+}
+.mx {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.pad {
+  padding: 0 5rem;
+}
+
+:root {
+  --white-primary: #ffffff;
+  --white-secondary: #777777;
+  --black-primary: #111111;
+  --black-light: #252525;
+  --green: #00ce53;
+}

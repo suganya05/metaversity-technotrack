@@ -1,0 +1,21 @@
+.admission-container {
+  .admission-contant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+    padding: 70px 0px;
+
+    .admission {
+      h4 {
+        font-size: 4rem;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+        color: var(--white-secondary);
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

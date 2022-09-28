@@ -1,0 +1,19 @@
+.featured-container {
+  h1 {
+    color: var(--black-light);
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  p {
+    font-size: 1.4rem;
+    text-align: center;
+    color: var(--white-secondary);
+    margin-top: 8px;
+  }
+  .featured-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 37px;
+    margin: 32px 64px 64px 64px;
+  }
+}
