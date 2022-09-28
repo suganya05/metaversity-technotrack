@@ -1,0 +1,42 @@
+.problems-container {
+  .problems {
+    h2 {
+      color: #252525;
+      font-size: 3.5rem;
+      text-align: right;
+    }
+    p {
+      font-size: 1.4rem;
+      color: #777777;
+      text-align: right;
+      margin-top: 8px;
+    }
+  }
+
+  .demo-container {
+    .demo {
+      width: 376px;
+      height: 376px;
+      border-radius: 280px;
+      gap: 16px;
+      background: red;
+    }
+  }
+}
+.learning-content {
+  width: 376px;
+  height: 376px;
+  border-radius: 280px;
+  gap: 16px;
+  background: red;
+  margin: auto;
+  //   display: block;
+  //   align-items: center;
+  //   justify-content: center;
+  h3 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+}

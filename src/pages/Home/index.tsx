@@ -6,6 +6,8 @@ import Benifits from "../components/Benifits";
 import Recongnition from "../components/Recognition";
 import Career from "../components/Career";
 import Featured from "../components/Featured";
+import Events from "../components/Events";
+import Stories from "../components/Stories";
 
 const Home: React.FC = () => {
   return (
@@ -17,6 +19,8 @@ const Home: React.FC = () => {
       <Recongnition />
       <Featured />
       <Career />
+      <Events />
+      <Stories />
       <Footer />
     </div>
   );

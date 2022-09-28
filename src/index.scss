@@ -31,13 +31,20 @@ html {
   font-size: 1.4rem;
 }
 .mx {
-  max-width: 1440px;
+  max-width: 1500px;
   width: 100%;
   margin: 0 auto;
 }
 
 .pad {
   padding: 0 5rem;
+}
+
+.text-coloring {
+  background: linear-gradient(to right, #293eff 0%, #8f00ff 45%, #ff7a00 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 :root {
