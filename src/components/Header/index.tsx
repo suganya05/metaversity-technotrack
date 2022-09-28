@@ -5,7 +5,7 @@ import Access from "../../assets/icons/access.svg";
 import Logo from "../../assets/logos/metaversity-logo.svg";
 import Bell from "../../assets/icons/bell.svg";
 import Moon from "../../assets/icons/moon.svg";
-import Menu from "../../assets/icons/menuBar.svg";
+// import Menu from "../../assets/icons/menuBar.svg";
 import Announcement from "../../assets/logos/announcement.svg";
 import RightArrow from "../../assets/icons/arrow-right.svg";
 import Tool from "../../assets/icons/tool.svg";
