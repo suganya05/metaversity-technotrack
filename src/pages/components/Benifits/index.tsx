@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Education from "../../../assets/images/education.png";
 import Admission from "../../../assets/images/admission-img.png";
 import Access from "../../../assets/images/access-img.png";
