@@ -39,7 +39,7 @@ const Featured: React.FC = () => {
 
           <div className="hindu-content">
             <div className="the-hindu">
-              <img src={TheHindu} alt="" />
+              <img src={TheTimesOfIndia} alt="" />
             </div>
             <div className="right">
               <img src={RightVector} alt="" />
@@ -81,7 +81,7 @@ const Featured: React.FC = () => {
 
           <div className="hindu-content">
             <div className="the-hindu">
-              <img src={TheHindu} alt="" />
+              <img src={TheTimesOfIndia} alt="" />
             </div>
             <div className="right">
               <img src={RightVector} alt="" />
