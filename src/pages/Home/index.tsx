@@ -12,7 +12,7 @@ import Stories from "../components/Stories";
 const Home: React.FC = () => {
   return (
     <div>
-      {/* <Hero />
+      <Hero />
       <Admission />
       <Problems />
       <Benifits />
@@ -20,8 +20,8 @@ const Home: React.FC = () => {
       <Featured />
       <Career />
       <Events />
-      <Stories /> */}
-      {/* <Footer /> */}
+      <Stories />
+      <Footer />
     </div>
   );
 };
