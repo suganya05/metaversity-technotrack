@@ -72,18 +72,19 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: yellow;
+      background: #ffffff;
+      box-shadow: 1px 1px 58px rgba(24, 24, 24, 0.08);
       border-radius: 280px;
-      width: 430px;
-      height: 430px;
+      width: 450px;
+      height: 450px;
     }
     .content-two {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background: pink;
-      border: 2px solid var(--background-gradient);
+      background: #ffffff;
+      border: 2px solid red;
       width: 376px;
       height: 376px;
       border-radius: 280px;

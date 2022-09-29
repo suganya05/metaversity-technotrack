@@ -29,7 +29,7 @@ const Header: React.FC = () => {
     } else {
       document.body.style.marginTop = "60px";
     }
-  }, [close]);
+  }, [close, openClose]);
 
   const renderLinks = (
     <div className="content">
@@ -122,6 +122,7 @@ const Header: React.FC = () => {
                     alt=""
                   />
                 </div>
+                {openClose && <div className="bar"></div>}
               </div>
             </div>
           </div>
