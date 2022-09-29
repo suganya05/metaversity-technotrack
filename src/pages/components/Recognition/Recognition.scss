@@ -19,6 +19,9 @@
       gap: 32px;
       padding-right: 45px;
       border-right: 1px solid #252525;
+      &:nth-last-child(1) {
+        border-right: none;
+      }
       .google-img {
         img {
           width: 100px;
