@@ -4,7 +4,7 @@ import Timer from "../../../assets/icons/timer.svg";
 import Calendar from "../../../assets/icons/calendar.svg";
 import Location from "../../../assets/icons/map-pin.svg";
 import Completed from "../../../assets/images/completed.png";
-import Countdown from "react-countdown";
+// import Countdown from "react-countdown";
 
 const Events: React.FC = () => {
   return (
@@ -28,9 +28,9 @@ const Events: React.FC = () => {
                 <div className="timer-img">
                   <img src={Timer} alt="" />
                 </div>
-                <div className="timer">
+                {/* <div className="timer">
                   <Countdown date={Date.now() + 1000000} />
-                </div>
+                </div> */}
                 <div className="content">
                   <div className="calendar">
                     <div>
