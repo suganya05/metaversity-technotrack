@@ -53,4 +53,10 @@ html {
   --black-primary: #111111;
   --black-light: #252525;
   --green: #00ce53;
+  --background-gradient: linear-gradient(
+    to right,
+    red 0%,
+    green 45%,
+    yellow 100%
+  );
 }

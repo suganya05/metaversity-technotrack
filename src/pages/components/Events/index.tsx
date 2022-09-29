@@ -21,41 +21,32 @@ const Events: React.FC = () => {
 
           <div className="upcoming">
             <div className="timer-content">
-              <div className="background-img"></div>
-              <h3>Lorem Ipsum</h3>
+              <div className="background-img"> </div>
+              <div className="lorem">
+                <h3>Lorem Ipsum</h3>
 
-              <div className="timer-img">
-                <img src={Timer} alt="" />
-              </div>
-              <div className="timer">
-                <section>
-                  <p> 03 : </p>
-                </section>
-                <section>
-                  <p> 01 :</p>
-                </section>
-                <section>
-                  <p> 45 :</p>
-                </section>
-                <section>
-                  <p> 03</p>
-                </section>
-              </div>
-              <div className="content">
-                <div className="calendar">
-                  <div>
-                    <img src={Calendar} alt="" />
-                  </div>
-                  <div>
-                    <p>23, Jan 2023</p>
-                  </div>
+                <div className="timer-img">
+                  <img src={Timer} alt="" />
                 </div>
-                <div className="calendar">
-                  <div>
-                    <img src={Location} alt="" />
+                <div className="timer">
+                  <Countdown date={Date.now() + 1000000} />
+                </div>
+                <div className="content">
+                  <div className="calendar">
+                    <div>
+                      <img src={Calendar} alt="" />
+                    </div>
+                    <div>
+                      <p>23, Jan 2023</p>
+                    </div>
                   </div>
-                  <div>
-                    <p>23, Jan 2023</p>
+                  <div className="calendar">
+                    <div>
+                      <img src={Location} alt="" />
+                    </div>
+                    <div>
+                      <p>23, Jan 2023</p>
+                    </div>
                   </div>
                 </div>
               </div>

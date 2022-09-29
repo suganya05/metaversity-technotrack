@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as Metaversity } from "../../assets/logos/metaversity-logo.svg";
+import Metaversity from "../../assets/logos/metaversity.png";
 import { ReactComponent as Mail } from "../../assets/icons/mail.svg";
 import { ReactComponent as Call } from "../../assets/icons/call.svg";
 import { ReactComponent as DeIndustries } from "../../assets/logos/de-industries.svg";
@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
           <div className="footerFirst">
             <div className="footerBorder">
               <div>
-                <Metaversity />
+                <img src={Metaversity} alt="" />
                 <div className="footerPara">
                   <p>
                     #1, VOC Street, Mahalaxmi Nagar East Tambaram, Selaiyur

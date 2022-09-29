@@ -14,6 +14,7 @@
     h5 {
       font-size: 1.7rem;
       margin-top: 32px;
+      width: fit-content;
     }
 
     .upcoming {
@@ -22,6 +23,7 @@
       column-gap: 62px;
 
       .timer-content {
+        position: relative;
         .background-img {
           background-image: url("../../../assets/images/events.png");
           -webkit-background-size: cover;
@@ -31,41 +33,56 @@
           width: 600px;
           height: 800px;
           margin-top: 34px;
-          filter: blur(3px);
-          -webkit-filter: blur(3px);
+          filter: blur(8px);
+          -webkit-filter: blur(8px);
+          position: relative;
         }
-        h3 {
-          color: #ffffff;
-          margin-top: 32px;
-          font-size: 3rem;
-        }
-        .timer-img {
-          margin-top: 200px;
+        .lorem {
+          position: absolute;
+          top: 50px;
           text-align: center;
 
-          img {
-            width: 80px;
-          }
-        }
-        .timer {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-top: 32px;
-          p {
+          h3 {
             color: #ffffff;
-            font-size: 4.5rem;
+            margin-top: 32px;
+            font-size: 3rem;
+            margin-left: -250px;
           }
-        }
-        .content {
-          display: flex;
-          justify-content: space-between;
-          margin-top: 232px;
-          .calendar {
+          .timer-img {
+            margin-top: 200px;
+
+            img {
+              width: 90px;
+              margin-left: 40px;
+            }
+          }
+          .timer {
             display: flex;
-            gap: 19px;
-            p {
-              color: #ffffff;
+            justify-content: center;
+            align-items: center;
+            margin-top: 32px;
+            margin-left: 20px;
+            color: #ffffff;
+            span {
+              font-size: 6rem;
+            }
+            // p {
+            //   color: #ffffff;
+            //   font-size: 4.5rem;
+            // }
+          }
+          .content {
+            display: flex;
+            justify-content: space-between;
+            gap: 225px;
+            margin-top: 232px;
+            padding: 0px 32px;
+            .calendar {
+              display: flex;
+              gap: 19px;
+              p {
+                color: #ffffff;
+              }
             }
           }
         }
