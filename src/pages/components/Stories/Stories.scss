@@ -1,71 +1,74 @@
 .stories-container {
   background: #222222;
   padding: 64px;
-  h1 {
-    font-size: 4rem;
-    text-align: center;
-    color: #ffffff;
-  }
-  p {
-    color: #777777;
-    font-size: 1.4rem;
-    margin-top: 8px;
-    text-align: center;
-  }
-  .stories {
-    .stories-content {
-      display: flex;
-      margin-top: 32px;
-      .stories {
-        background: #ffffff;
-        padding: 36px 36px 0px;
 
-        width: 400px;
+  .stories-head {
+    h1 {
+      font-size: 4rem;
+      text-align: center;
+      color: #ffffff;
+    }
+    p {
+      color: #777777;
+      font-size: 1.4rem;
+      margin-top: 8px;
+      text-align: center;
+    }
+  }
+  .stories-content {
+    display: flex;
+    margin-top: 32px;
+    .stories {
+      .stories-para {
+        background: #ffffff;
+        width: 376px;
+        padding: 25px;
 
         h3 {
+          font-size: 2.3rem;
           color: #252525;
-          font-size: 2rem;
-          margin-top: 15px;
+          margin-top: 20px;
         }
         p {
-          font-size: 1.4rem;
-          text-align: justify;
           color: #777777;
-        }
-        .star-content {
-          display: flex;
-          justify-content: space-between;
+          font-size: 1.4rem;
           margin-top: 16px;
+          line-height: 20px;
+        }
+        .flex-one {
+          display: flex;
+          align-items: center;
+          margin-top: 16px;
+          gap: 130px;
 
-          .star {
-            display: flex;
+          .date {
+            span {
+              color: #777777;
+              font-size: 1.2rem;
+            }
           }
         }
-        .defutura-content {
+        .flex-two {
           display: flex;
-          justify-content: space-between;
           align-items: center;
-          margin-top: 65px;
-          h4 {
-            color: #252525;
-            font-size: 1.6rem;
-            font-family: "Grold-Regular";
-          }
-          p {
-            font-size: 1.2rem;
-            color: #777777;
-            margin-top: 4px;
-          }
-          img {
-            width: 150px;
+          margin-top: 30px;
+          gap: 70px;
+          .developer {
+            h5 {
+              font-size: 1.4rem;
+            }
+            h6 {
+              color: #777777;
+              font-size: 1.1rem;
+              font-weight: 100;
+            }
           }
         }
       }
-      .girl-img {
-        img {
-          width: 400px;
-          height: 550px;
-        }
+    }
+    .girl-img {
+      img {
+        width: 400px;
       }
     }
   }

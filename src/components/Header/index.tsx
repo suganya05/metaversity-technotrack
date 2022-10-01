@@ -122,7 +122,6 @@ const Header: React.FC = () => {
                     alt=""
                   />
                 </div>
-                {openClose && <div className="bar"></div>}
               </div>
             </div>
           </div>

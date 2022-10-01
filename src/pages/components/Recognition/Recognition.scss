@@ -1,42 +1,111 @@
 .recongnition-container {
-  background: #0a0a0a;
+  background: var(--recognition-background);
   padding: 64px 0px;
+  @media (max-width: 655px) {
+    padding: 50px 0px 10px;
+  }
   h1 {
     font-size: 3.5rem;
     font-weight: 100;
-    color: #ffffff;
+    color: var(--white-primary);
     text-align: center;
+    @media (max-width: 655px) {
+      font-size: 2.6rem;
+    }
+    @media (max-width: 560px) {
+      font-size: 2.3rem;
+    }
+    @media (max-width: 455px) {
+      font-size: 2rem;
+    }
+    @media (max-width: 360px) {
+      font-size: 1.8rem;
+    }
   }
   .recongnition-content {
     display: flex;
     justify-content: center;
     gap: 40px;
     margin: 64px;
+    @media (max-width: 1285px) {
+      gap: 20px;
+    }
+    @media (max-width: 1147px) {
+      margin: 64px 40px;
+    }
+    @media (max-width: 1099px) {
+      margin: 58px 30px;
+    }
+    @media (max-width: 1000px) {
+      display: grid;
+      gap: 40px;
+    }
+    @media (max-width: 655px) {
+      gap: 30px;
+    }
 
     .google-content {
       display: flex;
       align-items: center;
       gap: 32px;
       padding-right: 45px;
-      border-right: 1px solid #252525;
+      border-right: 1px solid var(--black-light);
+
       &:nth-last-child(1) {
         border-right: none;
+      }
+      @media (max-width: 1000px) {
+        border-right: none;
+      }
+      @media (max-width: 1285px) {
+        padding-right: 25px;
+        gap: 20px;
+      }
+      @media (max-width: 1099px) {
+        padding-right: 15px;
+        gap: 10px;
+      }
+      @media (max-width: 455px) {
+        display: block;
       }
       .google-img {
         img {
           width: 100px;
+        }
+        @media (max-width: 455px) {
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
       }
       .google-para {
         h5 {
           font-weight: 100;
           font-size: 1.4rem;
-          color: #ffffff;
+          color: var(--white-primary);
+          @media (max-width: 1000px) {
+            font-size: 1.8rem;
+          }
+          @media (max-width: 655px) {
+            font-size: 1.6rem;
+          }
+          @media (max-width: 455px) {
+            margin-top: 8px;
+          }
         }
         p {
           margin-top: 8px;
           font-size: 1.2rem;
-          color: #777777;
+          color: var(--white-secondary);
+          @media (max-width: 1000px) {
+            font-size: 1.6rem;
+          }
+          @media (max-width: 655px) {
+            font-size: 1.4rem;
+          }
+        }
+        @media (max-width: 455px) {
+          text-align: center;
         }
       }
     }

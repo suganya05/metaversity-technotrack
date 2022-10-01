@@ -7,6 +7,10 @@ import CircleThree from "../../../assets/images/circle-3.svg";
 import CircleFour from "../../../assets/images/circle-4.svg";
 import CircleHeadTwo from "../../../assets/images/circle.png";
 import CircleHeadOne from "../../../assets/images/circle-two.png";
+import MediaCircleOne from "../../../assets/images/right-side-one.png";
+import MediaCircleTwo from "../../../assets/images/right-side-two.png";
+import MediaCircleThree from "../../../assets/images/right-side-three.png";
+import MediaCircleFour from "../../../assets/images/right-side-four.png";
 
 interface IProblems {
   title: string;
@@ -32,7 +36,7 @@ const Problems: React.FC = () => {
         <div className="mx">
           <div className="problems-content">
             <div className="problems">
-              <div>
+              <div className="head">
                 <h2>Problems</h2>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
@@ -60,6 +64,9 @@ const Problems: React.FC = () => {
                 <div className="circle-one">
                   <img src={CircleOne} alt="" />
                 </div>
+                <div className="rightCircle-one">
+                  <img src={MediaCircleOne} alt="" />
+                </div>
               </div>
 
               <div>
@@ -71,6 +78,9 @@ const Problems: React.FC = () => {
                 </div>
                 <div className="circle-two">
                   <img src={CircleTwo} alt="" />
+                </div>
+                <div className="rightCircle-two">
+                  <img src={MediaCircleTwo} alt="" />
                 </div>
               </div>
 
@@ -84,6 +94,9 @@ const Problems: React.FC = () => {
                 <div className="circle-three">
                   <img src={CircleThree} alt="" />
                 </div>
+                <div className="rightCircle-three">
+                  <img src={MediaCircleThree} alt="" />
+                </div>
               </div>
 
               <div>
@@ -95,6 +108,9 @@ const Problems: React.FC = () => {
                 </div>
                 <div className="circle-four">
                   <img src={CircleFour} alt="" />
+                </div>
+                <div className="rightCircle-four">
+                  <img src={MediaCircleFour} alt="" />
                 </div>
               </div>
 

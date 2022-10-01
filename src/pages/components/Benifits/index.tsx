@@ -44,56 +44,58 @@ const Benifits: React.FC = () => {
     <>
       <div className="benifits-contanier">
         <div className="mx">
-          <h3>Benifits.</h3>
+          <div className="benifit">
+            <h3>Benifits.</h3>
 
-          <div className="education-content mx">
-            <div className="benifits-content-left">
-              <DemoBenifits
-                poision="left"
-                img={Education}
-                title="one is to one & zero fee education"
-                description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
-              />
-            </div>
-            <div className="benifits-content-right">
-              <DemoBenifits
-                poision="right"
-                img={Admission}
-                title="Anytime refundable admission fee"
-                description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
-              />
-            </div>
-            <div className="benifits-content-left">
-              <DemoBenifits
-                poision="left"
-                img={Access}
-                title="Tailor-made platform access"
-                description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
-              />
-            </div>
-            <div className="benifits-content-right">
-              <DemoBenifits
-                poision="right"
-                img={Services}
-                title="Career services"
-                description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
-              />
-            </div>
-            <div className="benifits-content-left">
-              <DemoBenifits
-                poision="left"
-                img={Events}
-                title="Professional networking events"
-                description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
-              />
-            </div>
-            <div className="benifits-content-right">
-              <DemoBenifits
-                poision="right"
-                img={Job}
-                title="job assurance"
-                description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
-              />
+            <div className="education-content mx">
+              <div className="benifits-content-left demoImg">
+                <DemoBenifits
+                  poision="left"
+                  img={Education}
+                  title="one is to one & zero fee education"
+                  description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                />
+              </div>
+              <div className="benifits-content-right demoImg">
+                <DemoBenifits
+                  poision="right"
+                  img={Admission}
+                  title="Anytime refundable admission fee"
+                  description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                />
+              </div>
+              <div className="benifits-content-left demoImg">
+                <DemoBenifits
+                  poision="left"
+                  img={Access}
+                  title="Tailor-made platform access"
+                  description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                />
+              </div>
+              <div className="benifits-content-right demoImg">
+                <DemoBenifits
+                  poision="right"
+                  img={Services}
+                  title="Career services"
+                  description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                />
+              </div>
+              <div className="benifits-content-left demoImg">
+                <DemoBenifits
+                  poision="left"
+                  img={Events}
+                  title="Professional networking events"
+                  description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                />
+              </div>
+              <div className="benifits-content-right demoImg">
+                <DemoBenifits
+                  poision="right"
+                  img={Job}
+                  title="job assurance"
+                  description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                />
+              </div>
             </div>
           </div>
         </div>

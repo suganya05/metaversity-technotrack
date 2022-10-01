@@ -20,7 +20,7 @@ const Recongnition: React.FC = () => {
           </div>
 
           <div className="google-content">
-            <div className="google">
+            <div className="google-img">
               <img src={Aicte} alt="" />
             </div>
             <div className="google-para">
@@ -30,7 +30,7 @@ const Recongnition: React.FC = () => {
           </div>
 
           <div className="google-content">
-            <div className="google">
+            <div className="google-img">
               <img src={Google} alt="" />
             </div>
             <div className="google-para">

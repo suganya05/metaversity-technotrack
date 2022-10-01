@@ -1,13 +1,30 @@
 .problems-container {
   .problems-content {
     padding: 64px 0px;
+    @media (max-width: 750px) {
+      padding: 0px;
+    }
     .problems {
       position: relative;
       margin-right: 64px;
+      .head {
+        @media (max-width: 740px) {
+          margin-right: -30px;
+        }
+        @media (max-width: 640px) {
+          margin-right: -50px;
+        }
+        @media (max-width: 440px) {
+          margin-right: -35px;
+        }
+      }
       h2 {
         color: #252525;
         font-size: 3.5rem;
         text-align: right;
+        @media (max-width: 440px) {
+          font-size: 3.1rem;
+        }
       }
       p {
         font-size: 1.2rem;
@@ -15,17 +32,33 @@
         text-align: right;
         margin-top: 8px;
         padding-left: 450px;
+        @media (max-width: 930px) {
+          padding-left: 200px;
+        }
+        @media (max-width: 725px) {
+          padding-left: 120px;
+          margin-bottom: 30px;
+        }
+        @media (max-width: 600px) {
+          padding-left: 50px;
+        }
       }
       .circle-img {
         position: absolute;
         top: 0px;
         left: 125px;
+        @media (max-width: 930px) {
+          display: none;
+        }
       }
       .circle-head {
         position: absolute;
         top: 0;
         left: 100px;
         z-index: -1;
+        @media (max-width: 930px) {
+          display: none;
+        }
       }
     }
     .demo-container {
@@ -36,24 +69,99 @@
         top: 9%;
         left: 13%;
         z-index: -1;
+        img {
+          @media (max-width: 600px) {
+            display: none;
+          }
+        }
       }
       .circle-two {
         position: absolute;
         left: 55%;
         top: 24%;
         z-index: -1;
+        img {
+          @media (max-width: 600px) {
+            display: none;
+          }
+        }
+        @media (max-width: 950px) {
+          left: 40%;
+        }
+        @media (max-width: 665px) {
+          left: 30%;
+        }
+        @media (max-width: 620px) {
+          left: 20%;
+        }
+      }
+      .rightCircle-one {
+        position: absolute;
+        top: 11%;
+        left: 45%;
+        z-index: -1;
+        @media (min-width: 601px) {
+          display: none;
+        }
+      }
+      .rightCircle-two {
+        position: absolute;
+        top: 34%;
+        left: 18%;
+        z-index: -1;
+        @media (min-width: 601px) {
+          display: none;
+        }
+      }
+      .rightCircle-three {
+        position: absolute;
+        top: 52%;
+        left: 50%;
+        z-index: -1;
+
+        @media (min-width: 601px) {
+          display: none;
+        }
+      }
+      .rightCircle-four {
+        position: absolute;
+        top: 74%;
+        left: 23%;
+        z-index: -1;
+        @media (min-width: 601px) {
+          display: none;
+        }
       }
       .circle-three {
         position: absolute;
         left: 55%;
         top: 50%;
         z-index: -1;
+        img {
+          @media (max-width: 600px) {
+            display: none;
+          }
+        }
+        @media (max-width: 950px) {
+          left: 40%;
+        }
+        @media (max-width: 630px) {
+          left: 35%;
+        }
+        @media (max-width: 620px) {
+          left: 24%;
+        }
       }
       .circle-four {
         position: absolute;
         left: 15%;
         top: 65%;
         z-index: -1;
+        img {
+          @media (max-width: 600px) {
+            display: none;
+          }
+        }
       }
       .learning-content-left {
         display: flex;
@@ -62,10 +170,16 @@
       .learning-content-center {
         display: flex;
         justify-content: center;
+        @media (max-width: 600px) {
+          justify-content: flex-end;
+        }
       }
       .learning-content-right {
         display: flex;
         justify-content: flex-end;
+        @media (max-width: 600px) {
+          justify-content: flex-start;
+        }
       }
     }
     .circleColorContent {
@@ -77,6 +191,18 @@
       border-radius: 280px;
       width: 450px;
       height: 450px;
+      @media (max-width: 950px) {
+        width: 410px;
+        height: 410px;
+      }
+      @media (max-width: 630px) {
+        width: 350px;
+        height: 350px;
+      }
+      @media (max-width: 515px) {
+        width: 310px;
+        height: 310px;
+      }
     }
     .content-two {
       display: flex;
@@ -84,27 +210,66 @@
       justify-content: center;
       align-items: center;
       background: #ffffff;
-      border: 2px solid red;
+      border: 1px solid transparent;
+      background-image: linear-gradient(white, white),
+        radial-gradient(circle at top left, #f00, #3020ff);
+      background-origin: border-box;
+      background-clip: content-box, border-box;
       width: 376px;
       height: 376px;
       border-radius: 280px;
-      padding: 40px;
+      padding: 1px;
+      @media (max-width: 950px) {
+        width: 340px;
+        height: 340px;
+      }
+      @media (max-width: 630px) {
+        width: 300px;
+        height: 300px;
+      }
+      @media (max-width: 515px) {
+        width: 280px;
+        height: 280px;
+      }
       h3 {
         font-size: 1.6rem;
         text-transform: uppercase;
         font-family: "Grold-Light";
         padding: 5px 50px 0px;
         text-align: center;
+        @media (max-width: 630px) {
+          padding: 20px;
+          font-size: 1.2rem;
+          margin-bottom: -5px;
+        }
+        @media (max-width: 515px) {
+          font-size: 1.1rem;
+        }
       }
       p {
         color: #777777;
         font-size: 1em;
         text-align: center;
         margin-top: 16px;
+        padding: 0 25px;
+        @media (max-width: 950px) {
+          font-size: 1.2rem;
+          padding: 0 15px;
+        }
+        @media (max-width: 515px) {
+          font-size: 1.1rem;
+        }
       }
       Button {
         font-size: 1.4rem;
         margin-top: 16px;
+        @media (max-width: 630px) {
+          padding: 10px 15px;
+        }
+        @media (max-width: 515px) {
+          padding: 5px 10px;
+          font-size: 1rem;
+        }
       }
     }
   }

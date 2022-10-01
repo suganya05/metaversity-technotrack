@@ -5,16 +5,65 @@
     align-items: center;
     gap: 170px;
     padding: 70px 0px;
+    @media (max-width: 645px) {
+      margin-top: 60%;
+    }
+    @media (max-width: 500px) {
+      margin-top: 70%;
+    }
+    @media (max-width: 445px) {
+      margin-top: 75%;
+    }
+    @media (max-width: 435px) {
+      margin-top: 85%;
+    }
+    @media (max-width: 360px) {
+      margin-top: 95%;
+    }
+    @media (max-width: 1015px) {
+      gap: 130px;
+      padding: 70px 30px;
+    }
+    @media (max-width: 880px) {
+      gap: 100px;
+      padding: 70px 10px;
+    }
+    @media (max-width: 775px) {
+      gap: 80px;
+    }
+    @media (max-width: 700px) {
+      gap: 10px;
+    }
+    @media (max-width: 435px) {
+      display: grid;
+      gap: 40px;
+      padding: 50px 0px;
+    }
 
     .admission {
       h4 {
         font-size: 4rem;
         text-align: center;
+        @media (max-width: 672px) {
+          font-size: 3.3rem;
+        }
+        @media (max-width: 435px) {
+          font-size: 4.3rem;
+        }
       }
       p {
         text-align: center;
         color: var(--white-secondary);
         font-size: 1.4rem;
+        @media (max-width: 672px) {
+          font-size: 1.3rem;
+        }
+        @media (max-width: 435px) {
+          font-size: 1.5rem;
+        }
+      }
+      @media (max-width: 700px) {
+        width: 200px;
       }
     }
   }
